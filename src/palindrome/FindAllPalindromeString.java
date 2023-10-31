@@ -3,12 +3,12 @@ package palindrome;
 import java.util.HashSet;
 import java.util.Set;
 
-public class FindAllPalidromeString {
+public class FindAllPalindromeString {
 	private Set<String> palindrome = new HashSet<>();
 
 	public static void main(String[] args) {
 
-		FindAllPalidromeString findPalindrome = new FindAllPalidromeString();
+		FindAllPalindromeString findPalindrome = new FindAllPalindromeString();
 		findPalindrome.findPalindrome("JKJLQLJKLL");
 		findPalindrome.print();
 
